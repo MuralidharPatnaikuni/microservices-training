@@ -6,3 +6,14 @@ eureka:
     fetch-registry: true
   service-url:
     defaultZone: http://locahost:8761/eureka/
+    
+ #microservice:
+   #cardholder-service:
+    # endpoints:
+     #  endpoint:
+      #   uri: http://CARDHOLDER-SERVICE/cardholder/get
+   #merchant-service:
+    # endpoints:
+     #  endpoint:
+      #   uri: http://-SERVICE/MERCHANT-SERVICE/merchant/get
+         
